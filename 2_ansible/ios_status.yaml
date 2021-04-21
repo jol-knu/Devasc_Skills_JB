@@ -1,0 +1,23 @@
+#show version interface clear counters
+---
+- name: ios_status
+  hosts: CSR1kv
+  gather_facts: false
+  connection: local
+  
+  tasks:
+  - name: RUN SHOW VERSION
+    ios_command:
+      commands: show version       
+
+  - name: RUN SHOW INTERFACE
+    ios_command:
+      commands: show interfaces  
+
+  - name: RUN CLEAR COUNTERS
+    ios_command:
+      commands:
+        - command: 'clear counters GigabitEthernet1'
+          prompt: '[confirm]'
+          answer: 'y'
+      
