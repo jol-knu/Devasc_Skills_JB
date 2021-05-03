@@ -2,7 +2,7 @@ NETACAD-DEVASC SKILLS-BASED PRACTICAL TASKS
 
 Task name => Github
 
-Task preparation => create Github account.
+Task preparation => install Git on your VM. Create Github account.
 Task implementation => General Github setup steps.
 Task troubleshooting => more practise with fingers. If Error "fatal: Could not read from remote. repository", then need command "git remote add origin url/to/new/repo". git remote -v type to see if there is any remote named 'origin' listed.
 Task verification => https://github.com/jol-knu/Devasc_Skills_JB.
@@ -28,3 +28,25 @@ Task implementation => download latest jenkins container. start jenkins docker c
 Task troubleshooting => important stop and remove running container.
 Task verification => in folder 4_jenkins added success screenshots.
 
+Task name => restconf
+
+Task preparation => use visual studio code to perform the task.
+Task implementation => convert curl to python.
+Task troubleshooting => activate logging monitor using the ios cli before issuing post command.
+Task verification => response by requests shown in filr restconf_verify.jpg
+
+Task name => Webex
+
+Task preparation => need python skills.
+Task implementation => use visual studio code.
+Task troubleshooting => difficult to catch how to upload file to webex.
+Task verification => screenshot uploaded to webex.
+
+Task name => Bash
+
+Task preparation => need bash skills.
+Task implementation => use visual studio code.
+Task troubleshooting => stuck how to redirect output to file.
+Task verification => screenshot uploaded to webex, and files to Github.
+
+end
